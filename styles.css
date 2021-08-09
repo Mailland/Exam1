@@ -1,0 +1,57 @@
+balise
+{
+    font-family: police;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagne';
+    src: url('cac_champagne.eot');
+    src: url('cac_champagne.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne.woff') format('woff'),
+         url('cac_champagne.ttf') format('truetype'),
+         url('cac_champagne.svg#cac_champagneregular') format('svg');
+}
+
+body{
+    background-color: beige;
+}
+h1 {
+    font-family: Arial, "cac_champagne", Helvetica, sans-serif;
+    color: darkblue;
+    text-align: left;
+    margin-left: 45px;
+    font-size: 35px;
+    font-weight: bold;
+    strong
+}
+h2{
+    color: rgb(8, 8, 8);
+    text-align: left;
+    margin-left: 45px;
+    font-size: 35px;
+}
+p {
+    text-align: left;
+    margin-left: 45px;
+    font-size: 25px;
+}
+li{
+    text-align: left;
+    margin-left: 125px;
+    font-size: 25px;
+}
+strong {
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(76, 225, 245);
+    background-position: center;
+    font-size: 35px;
+}
+ol {
+    font-size: 25px;
+    margin-left: 150px;
+}
+ul {
+    margin-left: 100px;
+    font-size: 35px;
+}
